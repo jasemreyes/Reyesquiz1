@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="67dp"
         android:text="B.S. Computer Science"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="cs"/>
 
     <Button
         android:id="@+id/it"
@@ -22,7 +23,8 @@
         android:layout_marginTop="52dp"
         android:text="B.S. Information Technology"
         android:layout_below="@+id/cs"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="it"/>
 
     <Button
         android:id="@+id/is"
@@ -31,5 +33,6 @@
         android:text="B.S. Information Systems"
         android:layout_below="@+id/it"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="55dp" />
+        android:layout_marginTop="55dp"
+        android:onClick="is"/>
 </RelativeLayout>
