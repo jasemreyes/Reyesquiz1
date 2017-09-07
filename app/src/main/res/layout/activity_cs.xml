@@ -29,7 +29,8 @@
         android:layout_marginBottom="39dp"
         android:layout_marginLeft="21dp"
         android:layout_marginStart="21dp"
-        android:text="Home" />
+        android:text="Home"
+        android:onClick="HomePage"/>
 
     <Button
         android:id="@+id/it"
@@ -38,7 +39,8 @@
         android:text="IT Program"
         android:layout_alignBaseline="@+id/home"
         android:layout_alignBottom="@+id/home"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="it"/>
 
     <Button
         android:id="@+id/is"
@@ -50,7 +52,8 @@
         android:layout_alignBaseline="@+id/it"
         android:layout_alignBottom="@+id/it"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="is"/>
 
     <TextView
         android:id="@+id/textView3"
