@@ -18,7 +18,8 @@
         android:layout_marginBottom="39dp"
         android:layout_marginLeft="21dp"
         android:layout_marginStart="21dp"
-        android:text="Home" />
+        android:text="Home"
+        android:onClick="HomePage"/>
 
     <Button
         android:id="@+id/cs"
@@ -27,7 +28,8 @@
         android:text="CS Program"
         android:layout_alignBaseline="@+id/home"
         android:layout_alignBottom="@+id/home"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="cs"/>
 
     <Button
         android:id="@+id/is"
@@ -39,7 +41,8 @@
         android:layout_alignBaseline="@+id/cs"
         android:layout_alignBottom="@+id/cs"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="is"/>
 
     <TextView
         android:id="@+id/textView"
